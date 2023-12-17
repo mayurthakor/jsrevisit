@@ -8,7 +8,7 @@
 // Array, Objects, Functions
 
 //Is JS static or dynamic type language?
-// JavaScript is a dynamically typed language. This means that variable types are determined at runtime, and you do not need to explicitly declare the type of a variable before using it. You can assign different types of values to a variable during its lifetime.
+//JavaScript is a dynamically typed language. Because data type will automatically assigned at the time of compilation or code execution.
 
 const id = Symbol("123");
 const anotherID = Symbol("123");
