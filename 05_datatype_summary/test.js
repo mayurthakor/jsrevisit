@@ -28,3 +28,35 @@ let myFunction = function(){
 
 console.log("typeof Object is: ", typeof(myObje));
 console.log("typeof Function is: ", typeof(myFunction));
+
+
+
+//++++++++++++++++++++++   Memory Types   ++++++++++++++++++++++++++++
+
+//Stack(Primitive) and Heap(Non-Primitive)
+
+//Stack
+//Here you get a copy of actual variable. Valu of original variable remain intact.
+let my1stString = "This is my 1st sample String";
+let my2ndString = my1stString;
+my2ndString = "I have updated it";
+
+console.log(my1stString);
+console.log(my2ndString);
+
+
+//Heap
+//You get a memory reference here.
+
+let myObj1 = {
+    name: "Mayur Thakor",
+    email: "This@google.com"
+
+}
+
+let myObj2 = myObj1;
+
+myObj2.email = "Updated@google.com"; // Updating Email will update the copy of this object in Heap.
+
+console.log(myObj1);
+console.log(myObj2);
