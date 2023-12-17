@@ -8,3 +8,8 @@ console.log("When false value converted to number:- ", Number(false));
 
 console.log("When simple number 1 value converted to number:- ", Number(1));
 console.log("When simple number 0 value converted to number:- ", Number(0));
+
+// Intresting Operations
+
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
